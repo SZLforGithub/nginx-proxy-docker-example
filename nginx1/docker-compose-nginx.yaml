@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  nginx:
+    image: nginx
+    container_name: nginx-test
+    environment:
+      - VIRTUAL_HOST=[your-domain]
+      - LETSENCRYPT_HOST=[your-domain]
+    network_mode: bridge
