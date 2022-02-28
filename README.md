@@ -12,7 +12,7 @@ To run it:
 docker compose up -d
 ```
 
-Then move to one of nginx folder:
+Then move to one of nginx folders:
 
 ```
 cd nginx1
